@@ -1,0 +1,27 @@
+//reducer function
+#include<iostream>
+#include<string>
+ 
+using namespace std;
+ 
+int main()
+{
+	string key1,value,key2;
+	int cnt  = 1;
+	cin>>key1>>value;
+	while(cin>>key2>>value)
+	{
+		if(key1 == key2)
+		{
+			cnt++;
+		}
+		else
+		{
+			cout<<key1<<"\t"<<cnt<<endl;
+			cnt = 1;
+			key1 = key2;
+		}
+	}	
+	cout<<key2<<"\t"<<cnt<<endl;
+	return 0;
+}
