@@ -1,0 +1,15 @@
+//mapper function
+#include<string>
+#include<iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+	string str;
+	while(cin>>str)
+	{
+		cout<<str<<"\t"<<1<<endl;	
+	}	
+	return 0;
+}
