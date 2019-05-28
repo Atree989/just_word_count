@@ -1,2 +1,3 @@
 # just_word_count
 word_count programming in different languages
+word_count是一个非常有用的例子，与很多功能代码的思想是一致的，例如map的分时统计
